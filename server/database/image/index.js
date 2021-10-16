@@ -7,5 +7,7 @@ images:[
     },
 ],
 
+},{
+    timestamps:true,
 });
 export const ImageModel=mongoose.model("Image",ImageShema);
